@@ -6,7 +6,8 @@ import React, { useState } from 'react';
 
 function App() {
   //TODO: STEP 2 - Establish your applictaion's state with some useState hooks.  You'll need one for the home score and another for the away score.
-
+  const [homeScore, setHScore] = useState(0);
+  const [awayScore, setAScore] = useState(0);
   return (
     <div className="container">
       <section className="scoreboard">
